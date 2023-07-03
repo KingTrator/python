@@ -1,0 +1,13 @@
+Os exercícios daqui estão desatualizados em relação às versões mais recentes do Python (2023).
+Ainda usei o .format para formatar as interpolações nas strings, em vez de f"{}".
+Provavelmente também existam outras pequenas questões também, mas não é problema, haja vista que o .format ainda funciona,até o presente momento,
+no Python 3.
+
+Além disso, o nome correto dos exercícios deveria ter sido
+exabc, sendo a, b, c inteiros. Por exemplo, ex001, ex010, ex100.
+Mas daqui até o fim da lista eu não faço essa alteração.
+Resolvi manter assim mesmo, como um lembrete de minha desorganização inicial,
+a qual é lícita, haja vista que eu nunca havia programado antes.
+
+Por fim, cabe a nota de que alguns exercícios aqui estão "coloridos" por conta de outro
+exercício, cujo objetivo era justamente o de treinar isso (pôr cores na IDE).

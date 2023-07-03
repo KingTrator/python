@@ -1,0 +1,19 @@
+# Eu decidi seguir meu curso sem o Guanabara. Mas não gostei
+# muito do curso de POO com o professor da USP (cuja aula leva o nome "Conceitos Básicos e
+# Orientação a Objetos.py), então resolvi pegar um curso do Coursera de professores da Universidade de Michigan
+# que estão ministrando aulas desde o Curso 1 (que equivale mais ou menos ao Mundo 1 do Guanabara),
+# Curso 2 (que equivale aos mundos 2 e 3), Curso 3 (que será o meu Mundo 4 aqui, neste curso se ensina
+# como aplicar Python na Ciência de Dados com mais profundidade), Curso 4 (No qual finalmente se introduz o POO)
+# e o Curso 5 (que não sei do que se trata)>
+# Pelo menos o Curso 3 e 4 pretendo fazer. Concomitantemente vou ir me aperfeiçoamento na biblioteca pygame.
+# Nesta aula, para além da 1ª semana de revisão, somos (os alunos) introduzidos à biblioteca "re" do Python.
+# Por meio dela, podemos encontrar expressões regulares. Isso é naturalmente útil em Ciência de Dados.
+# Para usá-la, é preciso primeiro dar um import re.
+# Por meio de re.search você pode verificar se uma determina string corresponde a um padrão regex.
+# Por meio de re.findall você irá encontrar todas as ocorrências de um determinado padrão.
+# "^" especifica que o padrão deverá começar no início de uma linha...
+# ...(ex: "^F") diz que a linha deve começar com F.
+# "." substitui qualquer caracter entre outros dois, exemplo, a.b pode retornar ab, accdb, afshkjfeb...
+# "*" diz que o texto pode conter um número n >= 0 de caracteres, podendo ou não ser limitado por algo.
+# +,  especifica que o caractere anterior pode ser correspondido uma ou mais vezes
+# \S, que representa qualquer caractere que não seja um espaço em branco.

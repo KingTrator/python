@@ -1,0 +1,14 @@
+# Continuamos aprendendo mais coisas sobre o módulo re.
+# Para encontrar coisas, usa-se re.findall, enquanto re.search retorna apenas True ou False para a pesquisa.
+# Por meio de, por exemplo, y = re.findall('[0-9]+', x) estaremos procurando todos os números de 0 a 9, podendo
+# haver interpolações, em uma variável x qualquer. O sinal de "+" especifica a possibilidade de interpolação
+# de algarismos.
+# Assim, 999834, 301, 1, 0, podem ser encontrados, porém, se fizéssemos [0-9], então apenas algarismos
+# únicos poderiam ser encontrados. Os colchetes marcam a classe (não a Classe POO) de caracteres em análise
+# e o hífen determina o intervalo. Pode ser feito também com letras, como [a-z], [A-Z] ou [a-zA-Z], respectivamente,
+# letras minúsculas, maiúsculas e mistas de A a Z.
+# Se não houver nada, devolve-se uma lista vazia [].
+# Além disso, parentêses determinam um núcleo de buscas, portanto em y = re.Findall('From (\S+@\S+), x),
+# a função Findall só será ativada se a string começar por "From" e tiver um caracter branco antes de
+# um número qualquer maior ou igual a um (+) de caracteres não brancos(\S), seguido por outro número qualquer
+# de caracteres não brancos (o que inclui outro @)
