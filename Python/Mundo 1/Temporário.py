@@ -4,7 +4,7 @@ from collections import Counter
 # Este código foi feito totalmente pelo GPT-3.5. Vou deixá-lo aqui apenas porque
 # achei interessante a função Counter, mas pretendo apagar isto com o tempo.
 # Definir o caminho para o arquivo CSV
-arquivo_csv = r'C:\Users\Win10\OneDrive\Desktop\PL.csv'
+arquivo_csv = r'C:\Users\Win10\OneDrive\Documentos\Estudos\python\Python\PL.csv'
 
 # No final do mundo 3 eu fiz um exercício bastante parecido com esse. Fiquei de
 # criar uma versão alternativa dele, usando json.
