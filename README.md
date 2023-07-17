@@ -1,2 +1,3 @@
 # python
- Curso de Python do CeV
+ Estudos de Python
+ 
