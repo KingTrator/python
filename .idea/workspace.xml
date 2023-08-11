@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c8ad51b-a44b-4fd2-b23e-12d9788f38a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Python/Mundo 4 - sem o Guanabara/Aula03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Mundo 4 - sem o Guanabara/ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Mundo 4 - sem o Guanabara/ex03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Mundo 4 - sem o Guanabara/Aula02" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Mundo 4 - sem o Guanabara/Aula02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Mundo 4 - sem o Guanabara/Aula03" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Mundo 4 - sem o Guanabara/Aula03" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

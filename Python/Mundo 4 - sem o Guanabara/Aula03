@@ -15,7 +15,7 @@
 # 1. Currently we're transfering the IP's format from IPv4 to IPv6.
 # IPv4 IP format have the format x.x.x.x, where each x can be an int number between
 # 0 to 255. That allows about 4 billion combinations.
-# IPv6 uses a system of hexadecimal represantion, which allow waaaaaay more.
+# IPv6 uses a system of hexadecimal represantion, which allows waaaaaay more.
 # The number is close to 10^38. So, in the future, system's IP are problably going
 # to be IPv6 format, except for private IP's system's - that don't works in the
 # world wide web, but only in the local system.
