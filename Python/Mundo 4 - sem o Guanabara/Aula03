@@ -1,0 +1,39 @@
+# Python for Web applications.
+# I simply want to write this class in english.
+# First, we must learn what is a socket:
+# a socket, in very simplified terms, are like a pipe that allows the transferation
+# of information from point A to point B.
+# A = User's web application (for example)
+# B = Server's application
+# Once A makes a request, that request sails trough internet, by != types of protocols,
+# like HTTP (door 80).
+# For example, if an user sends a request to "login", "login" certainly have
+# a door that references to it. It could be "23". That door and the server IP together
+# meets the "phone number" that allows a call to happen. From that number,
+# an information is send to the server, which returns it to the user's IP.
+# As a matter of curiosity:
+# 1. Currently we're transfering the IP's format from IPv4 to IPv6.
+# IPv4 IP format have the format x.x.x.x, where each x can be an int number between
+# 0 to 255. That allows about 4 billion combinations.
+# IPv6 uses a system of hexadecimal represantion, which allow waaaaaay more.
+# The number is close to 10^38. So, in the future, system's IP are problably going
+# to be IPv6 format, except for private IP's system's - that don't works in the
+# world wide web, but only in the local system.
+
+# So, that's basic information to undersantd how part of the internet works and
+# what Python is going to do when it uses a socket.
+# Now, we can talk about the library "socket".
+
+import socket
+mysock = socket.socket(socket.AF_INTET, socket.SOCK_STREAM)
+# socket.socket == creates new socket's object
+# socket.AF_INET == specifys socket's protocols family. AF_INET is to IPv4. AF_INTET == IPv6.
+# socket.SOCK_STREAM = like AF_INET, is a CONSTANT. Used to TCP flows, one of the main possible flows.
+# Resume: mysock configures an object that uses protocols IPv4 and TCP.
+mysock.connect( ('data.pr4e.org', 80)) (host, port) # port == door
+# ".connect", despite of it being obvius, is the method to estabilish socket's connection.
+
+
+
+
+

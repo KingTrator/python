@@ -12,3 +12,8 @@
 # a função Findall só será ativada se a string começar por "From" e tiver um caracter branco antes de
 # um número qualquer maior ou igual a um (+) de caracteres não brancos(\S), seguido por outro número qualquer
 # de caracteres não brancos (o que inclui outro @)
+
+# Eu abri um repositório no GitHub apenas para trabalhar com a biblioteca re
+# que é bastante completa e poderosa.
+# Lá há muitos outros caracteres especiais que simbolizam várias linhas de código
+# por si, além de alguns métodos disponíveis para alterar certas configurações.
